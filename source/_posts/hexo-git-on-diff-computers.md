@@ -1,6 +1,8 @@
 ---
 title: Hexo git to different computer
 date: 2021-07-19 17:03:06
+categories:
+- Hexo related
 tags:
 ---
 
