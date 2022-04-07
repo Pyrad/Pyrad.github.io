@@ -8,6 +8,9 @@ tags:
 
 
 # Hexo git to different computer
+
+<!-- more -->
+
 ## create a clean local hexo blog directory
 install hexo first !
 ```shell

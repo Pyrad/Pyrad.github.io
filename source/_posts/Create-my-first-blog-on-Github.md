@@ -8,6 +8,8 @@ tags:
 
 ## How to create my first blog on Github
 
+<!-- more -->
+
 1. First install nodejs
 
 2. Install 'cnpm' because of "Great Fire Wall"
