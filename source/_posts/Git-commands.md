@@ -172,7 +172,7 @@ Frequently used git commands
 
 19. Create a new branch in local and then push it to the remote (GitHub) and then track it
 
-    ```sh
+    ```shell
     # 1. Create a new branch in local
     git branch <NEW_BRANCH_NAME>
     # 2. Get the remote repo name
@@ -187,3 +187,4 @@ Frequently used git commands
     git add -A
     git commit -m "XXXXX"
     git push (or use git push origin <NEW_BRANCH_NAME>)
+    ```
