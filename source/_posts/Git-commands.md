@@ -139,7 +139,7 @@ Frequently used git commands
 16. Show origin information
 	```shell
 	$ git remote
-
+	
 	$ git remote show origin
 	```
 
@@ -169,3 +169,21 @@ Frequently used git commands
 	```shell
 	$ git config --global alias.st status
 	```
+
+19. Create a new branch in local and then push it to the remote (GitHub) and then track it
+
+    ```sh
+    # 1. Create a new branch in local
+    git branch <NEW_BRANCH_NAME>
+    # 2. Get the remote repo name
+    git remote
+    # 3. Push the new branch to remote repo
+    git push <REMOTE_REPO_NAME> <NEW_BRANCH_NAME>
+    # Usually remote repo name is 'origin'
+    git push origin <NEW_BRANCH_NAME>
+    # 4. Connect this new local branch with the new branch just pushed to the remote repo
+    git branch --set-upstream-to=origin/<NEW_BRANCH_NAME>
+    # 5. After that, modify code and push as usaul
+    git add -A
+    git commit -m "XXXXX"
+    git push (or use git push origin <NEW_BRANCH_NAME>)
