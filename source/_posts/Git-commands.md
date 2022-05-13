@@ -73,7 +73,10 @@ Frequently used git commands
 	```
 	Use a tool to check the differences of files,
 	```shell
+	# full
 	git difftool --tool=tkdiff
+	# short 
+	git difftool -t <tool_name>
 	```
 	
 8.	To see all the differences in current branch and master branch, use command below to output those differences,
@@ -139,7 +142,7 @@ Frequently used git commands
 16. Show origin information
 	```shell
 	$ git remote
-
+	
 	$ git remote show origin
 	```
 
